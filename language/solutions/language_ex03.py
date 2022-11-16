@@ -6,8 +6,8 @@
     • If the numbers are equal, the program should indicate it as such.
 """
 prompt = "Enter {} whole number: "
-first = int(input(prompt.format("a")))
-second = int(input(prompt.format("a second")))
+first = int(input(prompt.format("first")))
+second = int(input(prompt.format("second")))
 
 larger_text = "is the larger number"
 if first < second:
